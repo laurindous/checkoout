@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="landing-page">
+        <div class="content">
+            <h1>Realize o pagamento via pix!</h1>
+            <p>Pix QR code ou copia e cola.</p>
+            <div class="qr-code">
+                <img src="qr-code-image.png" alt="QR Code">
+
+            
+                
+                <p>
+                    00020126580014BR.GOV.BCB.PIX01365b24b83d-3ec3-49b9-af6c-fc4cf4c7ab50520400005303986540512.005802BR5925Joao Pedro Soares Delmond6009SAO PAULO61080540900062250521MnXOYUndzYWuNPk1bbou26304FE8E
+                </p>
+                
+            </div>
+            <form action="enviar-dados.php" method="post">
+                <input type="text" name="cpf" placeholder="Digite seu CPF" required>
+                <input type="text" name="whatsapp" placeholder="Digite seu WhatsApp" required>
+                <button type="submit">Já realizei o pagamento!</button>
+            </form>
+            <a href="https://jogodotigre.com/" class="cta-button">Suporte 24h</a>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
+
+
+
+
